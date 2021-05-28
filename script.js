@@ -91,7 +91,7 @@ button.onclick = function () {
         setColor(temp)
         changeBoard(board)
     }
-    xhrRequest.open('get', 'https://sugoku.herokuapp.com/board?difficulty=hard')
+    xhrRequest.open('get', 'https://sugoku.herokuapp.com/board?difficulty=easy')
     //we can change the difficulty of the puzzle the allowed values of difficulty are easy, medium, hard and random
     xhrRequest.send()
 }
